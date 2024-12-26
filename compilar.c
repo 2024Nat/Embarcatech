@@ -4,27 +4,27 @@ void celsius_para_fahrenheit_kelvin(float celsius) {
     float fahrenheit = (celsius * 9/5) + 32;
     float kelvin = celsius + 273.15;
 
-    printf("\n%.2f °C é igual a:\n", celsius);
-    printf("-> %.2f °F\n", fahrenheit);
-    printf("-> %.2f K\n", kelvin);
+    printf("\n%.2f Em celsius\n", celsius);
+    printf("-> %.2f Em fahrenheit \n", fahrenheit);
+    printf("-> %.2f Em Kelvin\n", kelvin);
 }
 
 void fahrenheit_para_celsius_kelvin(float fahrenheit) {
     float celsius = (fahrenheit - 32) * 5/9;
     float kelvin = celsius + 273.15;
 
-    printf("\n%.2f °F é igual a:\n", fahrenheit);
-    printf("-> %.2f °C\n", celsius);
-    printf("-> %.2f K\n", kelvin);
+    printf("\n%.2f Em fahrenheit\n", fahrenheit);
+    printf("-> %.2f Em celsius\n", celsius);
+    printf("-> %.2f Em Kelvin\n", kelvin);
 }
 
 void kelvin_para_celsius_fahrenheit(float kelvin) {
     float celsius = kelvin - 273.15;
     float fahrenheit = (celsius * 9/5) + 32;
 
-    printf("\n%.2f K é igual a:\n", kelvin);
-    printf("-> %.2f °C\n", celsius);
-    printf("-> %.2f °F\n", fahrenheit);
+    printf("\n%.2f Em kelvin \n", kelvin);
+    printf("-> %.2f Em celsius \n", celsius);
+    printf("-> %.2f Em fahrenheit  \n", fahrenheit);
 }
 
 int main() {
